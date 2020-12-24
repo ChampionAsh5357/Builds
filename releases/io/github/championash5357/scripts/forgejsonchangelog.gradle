@@ -99,3 +99,5 @@ class ForgeJsonChangelog extends DefaultTask {
         }
     }
 }
+
+ext.ForgeJsonChangelog = ForgeJsonChangelog
