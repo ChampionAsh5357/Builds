@@ -1,0 +1,91 @@
+import com.google.gson.GsonBuilder
+import com.google.gson.Gson
+import com.google.gson.JsonObject
+import org.apache.maven.artifact.versioning.ComparableVersion
+
+class ForgeJsonChangelog extends DefaultTask {
+    
+    static Gson gson = new GsonBuilder().setPrettyPrinting().create()
+    
+    @Input
+    JsonObject json = new JsonObject()
+    
+    @Input
+    String output = null
+    
+    @Input
+    @Optional
+    String homepage = null
+    
+    @Input
+    String mcVersion = null
+    
+    @Input
+    String modVersion = null
+    
+    @Input
+    String changelog = null
+    
+    @Input
+    @Optional
+    Boolean forceRecommended = false
+    
+    @TaskAction
+    def writeJson() {
+        def existing
+        try {
+            existing = project.file(output)
+            if (existing) json = gson.fromJson(existing.text, JsonObject.class)
+        } catch (FileNotFoundException e) {
+            def newFile = new File(output)
+            new File(output.replace(newFile.getName(), "")).mkdirs()
+            newFile.createNewFile()
+            existing = project.file(newFile)
+        }
+        if (homepage) json.addProperty('homepage', homepage)
+        getOrCreateObject(mcVersion).addProperty(modVersion, changelog)
+        JsonObject promotions = getOrCreateObject('promos')
+        promotions.addProperty(mcVersion + '-latest', compareVersions(getJsonString(mcVersion + '-latest'), modVersion))
+        if (forceRecommended) promotions.addProperty(mcVersion + '-recommended', compareVersions(getJsonString(mcVersion + '-recommended'), modVersion))
+        else {
+            String[] versionParts = modVersion.split('-')
+            if ((versionParts[versionParts.length - 1] ==~ /\d+(\.\d+)*/)) {
+                String[] versionBase = versionParts.length == 1 ? versionParts[0].split('\\.') : versionParts[1].split('\\.')
+                for (int i = 0; i < versionBase.length; i++) {
+                    if (i == 0) {
+                        if (Integer.valueOf(versionBase[i]) == 0) break
+                        else continue
+                    }
+                    else if (i == 1) continue
+                    else if (Integer.valueOf(versionBase[i]) != 0) break
+                    else if (i == versionBase.length - 1) {
+                        promotions.addProperty(mcVersion + '-recommended', compareVersions(getJsonString(mcVersion + '-recommended'), modVersion))
+                        break
+                    }
+                }
+            }
+        }
+        existing.text = gson.toJson(json)
+    }
+    
+    // Checks two versions to see which one is the latest
+    def String compareVersions(String originalVersion, String newVersion) {
+        if (!originalVersion) return newVersion
+        return new ComparableVersion(originalVersion).compareTo(newVersion) <= 0 ? originalVersion : newVersion
+    }
+    
+    // Gets a string for the specific key or an empty string if not present
+    def String getJsonString(String key) {
+        return json.has(key) ? json.getAsJsonPrimitive(key).getAsString() : ''
+    }
+    
+    // Gets or creates a new JsonObject within the main JsonObject
+    def JsonObject getOrCreateObject(String key) {
+        if(json.has(key)) return json.getAsJsonObject(key)
+        else {
+            def obj = new JsonObject()
+            json.add(key, obj)
+            return obj
+        }
+    }
+}
