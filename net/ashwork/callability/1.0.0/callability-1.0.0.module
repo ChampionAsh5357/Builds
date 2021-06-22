@@ -27,11 +27,11 @@
         {
           "name": "callability-1.0.0.jar",
           "url": "callability-1.0.0.jar",
-          "size": 3545,
-          "sha512": "8d946857a81e7b102739d557e7e39bc3b2cdc598f797bc8170cbb489da720c6c214e804a4b70c00dbaf9ccd3a4469db4c3717ec84cc9688bccdb8e3e9455f0fc",
-          "sha256": "49bb1e96f34277a072dafcfb41995e4474e4b2b36218b7b2288faf340c0d849e",
-          "sha1": "974e603505f9fa6a3bf92a3d6a8f5eb3e98a7656",
-          "md5": "eac5e6005270c314aa6b51a9eb9c8fbb"
+          "size": 3549,
+          "sha512": "0b33450be9cf2fefd2b112800b39422548d2ff3f855ace0a2a83d8dfc72cc3a04ce4e62dffea2ff97375b7738c72af42eb5b714530c6aeea7ab6e09f13e33b5d",
+          "sha256": "3ef3aa9d8ee5c3524a68b3948f67aff4b6165fdbf4b29dca4f5edc472c3e3fd9",
+          "sha1": "5b6d9d6b9faaff59b6f96a80eaef5e331b96483e",
+          "md5": "5bf81ecb8e846a800d1fb490d4afd78d"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "callability-1.0.0.jar",
           "url": "callability-1.0.0.jar",
-          "size": 3545,
-          "sha512": "8d946857a81e7b102739d557e7e39bc3b2cdc598f797bc8170cbb489da720c6c214e804a4b70c00dbaf9ccd3a4469db4c3717ec84cc9688bccdb8e3e9455f0fc",
-          "sha256": "49bb1e96f34277a072dafcfb41995e4474e4b2b36218b7b2288faf340c0d849e",
-          "sha1": "974e603505f9fa6a3bf92a3d6a8f5eb3e98a7656",
-          "md5": "eac5e6005270c314aa6b51a9eb9c8fbb"
+          "size": 3549,
+          "sha512": "0b33450be9cf2fefd2b112800b39422548d2ff3f855ace0a2a83d8dfc72cc3a04ce4e62dffea2ff97375b7738c72af42eb5b714530c6aeea7ab6e09f13e33b5d",
+          "sha256": "3ef3aa9d8ee5c3524a68b3948f67aff4b6165fdbf4b29dca4f5edc472c3e3fd9",
+          "sha1": "5b6d9d6b9faaff59b6f96a80eaef5e331b96483e",
+          "md5": "5bf81ecb8e846a800d1fb490d4afd78d"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "callability-1.0.0-sources.jar",
           "url": "callability-1.0.0-sources.jar",
-          "size": 3200,
-          "sha512": "a2db2f9f6fe7fe5ad9389f77b5892bf44131d44a0b4423e38f93a13438a7c198ccd09d0c757510b6fdca6441d490a2b1b28edad338a00819d0018134cf3ad9d1",
-          "sha256": "d8580298dd1d84be3794a1e53babfe52cd03d428fe0d4fec1c21c132dbf303bf",
-          "sha1": "12ba31c704d7322873a4b4367b39b3769d7bf617",
-          "md5": "efca487d79ad44722e2a12a04d875f76"
+          "size": 3131,
+          "sha512": "bd6e814ff11d9a4c14b353315fc567f002b4fea4e0b3374e3a7d06dd3da15a9d5c94df45e9e43b7dcf23682ad2858c9411b8adc5c3f58930061320dd2f62b1a7",
+          "sha256": "2214472b2c9dbf3f1a67b18b3c0529afa6f76c037f415dd4f6f142ad77b9e36e",
+          "sha1": "756d2ebfc03e22c5b36e8c208136355b30cfeeb4",
+          "md5": "cde82ed8340004f9f802dfbd9f86a818"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "callability-1.0.0-javadoc.jar",
           "url": "callability-1.0.0-javadoc.jar",
-          "size": 23556,
-          "sha512": "28a5588c4888272b915a32b89c912f2479b3987e88f3a57161c9d64ed9b53a243b2bc76af61a37f68e61881aff8197dd75b8b397905cc697387bc11a5d0cab16",
-          "sha256": "5141ed3324a021410d8b38f79f094226a28bb36a139773f86843d1f3e5e24010",
-          "sha1": "b59c9f485c9e8c9059bcc387b57f17986cd94b7a",
-          "md5": "7c3be562e820484a36b700bafb3acdd3"
+          "size": 23518,
+          "sha512": "f05077a2872476de07a56525e5dbab55f1f52bd3784ece8e48e5faf5400aee1c442c0f5cbf640a72025b3cb6e1d0108626d2b2772c72eed82bbf42a1d8514e00",
+          "sha256": "027c3eb1b4c8aa10a1c599bff3f6b4cab739dfeb92018ba95d214ad845eb7b34",
+          "sha1": "17d846b1bf9661aabebd3489c1421b4ce92ecebb",
+          "md5": "7c31290fb545c1583267f14feca3a027"
         }
       ]
     }
