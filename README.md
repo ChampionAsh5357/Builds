@@ -3,5 +3,12 @@ This repository holds a list of builds between all repository projects as of Jan
 
 # Project Versions
 
-- Functionality: 1.0.0
-  - Callability: 1.0.0
+| Name | Artifact Id | Version |
+|--- | :---: | :---: |
+| [Functionality][functionality] | functionality | 1.0.0 |
+| [Callability][functionality] | callability | 1.0.0 |
+| [Codecable][codecable] | codecable | 1.0.0 |
+| [Codecable - Minecraft][codecable] | codecable-minecraft | 1.0.0 |
+
+[functionality]: https://github.com/ChampionAsh5357/Functionality
+[codecable]: https://github.com/ChampionAsh5357/Codecable
