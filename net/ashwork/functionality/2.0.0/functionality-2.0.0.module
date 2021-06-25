@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "functionality",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "functionality-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "callability",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "functionality-2.0.0.jar",
+          "url": "functionality-2.0.0.jar",
+          "size": 374,
+          "sha512": "22fd6d40b54ee859a119e75bb394a9493268640837c1e4df16fcc9bd8ccaa358bf63bcd798ff87d581330d28b54d1dadc2e78b66e2069375256ab81de015d634",
+          "sha256": "4293791e8aa99ca86d64aac7254a5733c946ea537bed70c6f753db28e54a9b75",
+          "sha1": "d9a962b4a4b50614f08b19978a9e9de6a54f8851",
+          "md5": "4e551cfacf62ad89fcd9b96a326c6b9c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "functionality-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "callability",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "functionality-2.0.0.jar",
+          "url": "functionality-2.0.0.jar",
+          "size": 374,
+          "sha512": "22fd6d40b54ee859a119e75bb394a9493268640837c1e4df16fcc9bd8ccaa358bf63bcd798ff87d581330d28b54d1dadc2e78b66e2069375256ab81de015d634",
+          "sha256": "4293791e8aa99ca86d64aac7254a5733c946ea537bed70c6f753db28e54a9b75",
+          "sha1": "d9a962b4a4b50614f08b19978a9e9de6a54f8851",
+          "md5": "4e551cfacf62ad89fcd9b96a326c6b9c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "functionality-2.0.0-sources.jar",
+          "url": "functionality-2.0.0-sources.jar",
+          "size": 261,
+          "sha512": "29255fe2f93c3bd2e27f53403091d0db7f6bf648ede369d1ea054666359157ba5d09559d693238ae332e598b111bf131a7ef227208c7bf6e8e892bd3cf8366a9",
+          "sha256": "95660d521d142ef52c8917cbcad14798081a2aceee2d127d7d49a97527f98e04",
+          "sha1": "b723a20e0afd52fea8d9850f87bfc8b0b48e56b7",
+          "md5": "7f130d7b2e764db32bb04866ea35c6ad"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "functionality-2.0.0-javadoc.jar",
+          "url": "functionality-2.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "29255fe2f93c3bd2e27f53403091d0db7f6bf648ede369d1ea054666359157ba5d09559d693238ae332e598b111bf131a7ef227208c7bf6e8e892bd3cf8366a9",
+          "sha256": "95660d521d142ef52c8917cbcad14798081a2aceee2d127d7d49a97527f98e04",
+          "sha1": "b723a20e0afd52fea8d9850f87bfc8b0b48e56b7",
+          "md5": "7f130d7b2e764db32bb04866ea35c6ad"
+        }
+      ]
+    }
+  ]
+}
