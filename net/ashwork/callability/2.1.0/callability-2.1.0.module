@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "callability",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "callability-2.1.0.jar",
+          "url": "callability-2.1.0.jar",
+          "size": 29403,
+          "sha512": "29590f6b73967115284e1a1c7511785f4276ae711816d7e55a85ece4caf6fd854464d7a804f5afc6553a8249528dd2852463e1e65a43da031aa612eb7f2e4650",
+          "sha256": "a18ad0247fbd9a4591e7dded79f196cea104cfbd417e8aae48e72d9c4a1d350e",
+          "sha1": "da168b7222d7b0f94547a9240a6ff6500fa45230",
+          "md5": "f087ffad7ab1640a31d987cb4d1a23b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "callability-2.1.0.jar",
+          "url": "callability-2.1.0.jar",
+          "size": 29403,
+          "sha512": "29590f6b73967115284e1a1c7511785f4276ae711816d7e55a85ece4caf6fd854464d7a804f5afc6553a8249528dd2852463e1e65a43da031aa612eb7f2e4650",
+          "sha256": "a18ad0247fbd9a4591e7dded79f196cea104cfbd417e8aae48e72d9c4a1d350e",
+          "sha1": "da168b7222d7b0f94547a9240a6ff6500fa45230",
+          "md5": "f087ffad7ab1640a31d987cb4d1a23b0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "callability-2.1.0-sources.jar",
+          "url": "callability-2.1.0-sources.jar",
+          "size": 21694,
+          "sha512": "8d830036c7d1c64d6690201a2e7c25caae7083b4df6980ab109189d1c60c789f6a5f2b5e1c027a1728f9d64113f0b741b03f29c7ebbb5fd90d509c02e397ad6c",
+          "sha256": "d7fb1529f43fd56e64691e91bffbfcb4e9bfe1d377c0a2f655df5fa5d1fe4515",
+          "sha1": "1cdd9897afa12ae173098bf31f668b36de03db3b",
+          "md5": "bad8d01b72223cf1b7671550532cb554"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "callability-2.1.0-javadoc.jar",
+          "url": "callability-2.1.0-javadoc.jar",
+          "size": 124545,
+          "sha512": "5d23bf844a6cf8e134b43b78af693d52f8efe2d139f0511161d573bc289a5f18b94216902a10c1480429d83752f19df5e9c115b51a159716fb86d93d77bc9e14",
+          "sha256": "99d285f0d07919cc2e2f19aa76936dade02877c3c4eb421b0af08a0f3a3c2627",
+          "sha1": "f26e6a80abdb00f28e8c42493077437a9080fa58",
+          "md5": "d080f2e8cf7064baed892d353b92d58b"
+        }
+      ]
+    }
+  ]
+}

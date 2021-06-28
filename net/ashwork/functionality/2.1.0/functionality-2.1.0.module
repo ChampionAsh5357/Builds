@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "functionality",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "aritiality",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "callability",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "functionality-2.1.0.jar",
+          "url": "functionality-2.1.0.jar",
+          "size": 375,
+          "sha512": "afc45654e672de3ea36c24d930e95fa84531b11d4d8e252dcef3198f4b7290751a7133b1c1ca3d494ceb456ab9f152500055403e37da0a4bb3099a01f82c122d",
+          "sha256": "7586d2aaaa37a41bbf510e31da238d35464ad74dac76dfc7d5b3c2ec686d0dc8",
+          "sha1": "4526f723a85dcd1e99229bd429c140d2f2ca221c",
+          "md5": "47a0ff3a4dcc3dda37dbfca8982be50a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "aritiality",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "callability",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "functionality-2.1.0.jar",
+          "url": "functionality-2.1.0.jar",
+          "size": 375,
+          "sha512": "afc45654e672de3ea36c24d930e95fa84531b11d4d8e252dcef3198f4b7290751a7133b1c1ca3d494ceb456ab9f152500055403e37da0a4bb3099a01f82c122d",
+          "sha256": "7586d2aaaa37a41bbf510e31da238d35464ad74dac76dfc7d5b3c2ec686d0dc8",
+          "sha1": "4526f723a85dcd1e99229bd429c140d2f2ca221c",
+          "md5": "47a0ff3a4dcc3dda37dbfca8982be50a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "functionality-2.1.0-sources.jar",
+          "url": "functionality-2.1.0-sources.jar",
+          "size": 261,
+          "sha512": "bbd0da6c187c7624c716ea85af49e25a7ab2d59b100356c5662c330273db053417899959b6cf47ccbd976e0b0a8d4a5759419b84bd484f4c78f8360ae67428ee",
+          "sha256": "4446fb0a4746c3874d536c194f882186ca742aa088ea5191298f61e0fa965b60",
+          "sha1": "a2e9cba7f08765ffd7ae62a67f778327cbaa51ae",
+          "md5": "83cf07355ab97694460788bdbfab2e41"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "functionality-2.1.0-javadoc.jar",
+          "url": "functionality-2.1.0-javadoc.jar",
+          "size": 261,
+          "sha512": "bbd0da6c187c7624c716ea85af49e25a7ab2d59b100356c5662c330273db053417899959b6cf47ccbd976e0b0a8d4a5759419b84bd484f4c78f8360ae67428ee",
+          "sha256": "4446fb0a4746c3874d536c194f882186ca742aa088ea5191298f61e0fa965b60",
+          "sha1": "a2e9cba7f08765ffd7ae62a67f778327cbaa51ae",
+          "md5": "83cf07355ab97694460788bdbfab2e41"
+        }
+      ]
+    }
+  ]
+}

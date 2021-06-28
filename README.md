@@ -3,13 +3,16 @@ This repository holds a list of builds between all repository projects as of Jan
 
 # Project Versions
 
-| Name | Artifact Id | Version |
-|--- | :---: | :---: |
-| [Functionality][functionality] | functionality | 2.0.0 |
-| [Functionality - Core][functionality] | functionality-core | 1.0.0 |
-| [Callability][functionality] | callability | 2.0.0 |
-| [Codecable][codecable] | codecable | 1.0.0 |
-| [Codecable - Minecraft][codecable] | codecable-minecraft | 1.0.0 |
+| Name | Artifact Id | Version | Maven Central |
+| :--- | :---: | :---: | :---: |
+| [Aritiality][functionality] | aritiality | 1.0.0 | ✔️ |
+| [Callability][functionality] | callability | 2.1.0 | ✔️ |
+| [Codecable][codecable] | codecable | 1.0.0 | ❌ |
+| [Codecable - Minecraft][codecable] | codecable-minecraft | 1.0.0 | ❌ |
+| [Functionality][functionality] | functionality | 2.1.0 | ✔️ |
+| [Functionality - Core][functionality]* | functionality-core | 1.0.0 | ❌ |
+
+\* [Functionality - Core][functionality] is now deprecated and final. This project has been moved to [Aritiality][functionality].
 
 [functionality]: https://github.com/ChampionAsh5357/Functionality
 [codecable]: https://github.com/ChampionAsh5357/Codecable
