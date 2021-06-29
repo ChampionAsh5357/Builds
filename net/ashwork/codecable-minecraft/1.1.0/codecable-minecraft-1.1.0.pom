@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.ashwork</groupId>
+  <artifactId>codecable-minecraft</artifactId>
+  <version>1.1.0</version>
+  <name>Codecable - Minecraft</name>
+  <description>A collection of helpful codecs for use with Minecraft.</description>
+  <url>https://github.com/ChampionAsh5357/codecable</url>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://opensource.org/licenses/MPL-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>ChampionAsh5357</name>
+      <email>ash@ashwork.net</email>
+      <url>https://ashwork.net/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ChampionAsh5357/codecable.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ChampionAsh5357/codecable.git</developerConnection>
+    <url>https://github.com/ChampionAsh5357/codecable</url>
+  </scm>
+  <issueManagement>
+    <system>Github Issues</system>
+    <url>https://github.com/ChampionAsh5357/codecable/issues</url>
+  </issueManagement>
+</project>
