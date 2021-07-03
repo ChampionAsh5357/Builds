@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "aritiality",
+    "version": "2.0.0-final",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "aritiality-2.0.0-final.jar",
+          "url": "aritiality-2.0.0-final.jar",
+          "size": 19919,
+          "sha512": "b781b455397f9ec607fbf3fd3e103c3bc8e4e6b09e5b3723817cdb364484761614a430726cbd2aa71503de9304e880459efc5187ea4b4bdc3501ed8371967883",
+          "sha256": "88979e914953748d9e671fa13d6c0361b520faa7a7f6c46243d5631da335f02b",
+          "sha1": "4475ef884a3115be469844814052ba4ff8d0a529",
+          "md5": "1f1b952606e147f122e90bdac9bc5291"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aritiality-2.0.0-final.jar",
+          "url": "aritiality-2.0.0-final.jar",
+          "size": 19919,
+          "sha512": "b781b455397f9ec607fbf3fd3e103c3bc8e4e6b09e5b3723817cdb364484761614a430726cbd2aa71503de9304e880459efc5187ea4b4bdc3501ed8371967883",
+          "sha256": "88979e914953748d9e671fa13d6c0361b520faa7a7f6c46243d5631da335f02b",
+          "sha1": "4475ef884a3115be469844814052ba4ff8d0a529",
+          "md5": "1f1b952606e147f122e90bdac9bc5291"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aritiality-2.0.0-final-sources.jar",
+          "url": "aritiality-2.0.0-final-sources.jar",
+          "size": 21012,
+          "sha512": "972bf70872a142643af65579ab8228a2cb750646bded6620b647fd0f743bc020d34dfdda0f20305343ccca0fd00378ce5dfe82fa4cf239d79ea3cb451e997a29",
+          "sha256": "0953a3d5cfcf2878d440e1fb383d15e060b87204502cffe56dd0a8c25e6604ff",
+          "sha1": "4f7891abe5400e118272ad7f20e448b64800bb36",
+          "md5": "fcad48c04cc2e02786dfa063390bb09f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aritiality-2.0.0-final-javadoc.jar",
+          "url": "aritiality-2.0.0-final-javadoc.jar",
+          "size": 85359,
+          "sha512": "3d8b3aedf13580e8ff9f7b29f1d509ef0a81bc2b58406600fd4a89059d5a271dbba9ccdafd962a20c4f747d8d0e4857981ecf7121d1ca98be4e720db2ac40215",
+          "sha256": "6592df85db1a1e7631d814111772758bb1ea0b4c2b0c3188ffd0e35dd63e132c",
+          "sha1": "27ca094be5e33c3bf61bc8716b383972784f3f2a",
+          "md5": "edde23e591282caec87c7380082fabbf"
+        }
+      ]
+    }
+  ]
+}

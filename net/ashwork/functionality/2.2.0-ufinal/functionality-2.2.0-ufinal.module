@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "functionality",
+    "version": "2.2.0-ufinal",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "aritiality",
+          "version": {
+            "requires": "2.0.0-final"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "callability",
+          "version": {
+            "requires": "2.2.0-final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "functionality-2.2.0-ufinal.jar",
+          "url": "functionality-2.2.0-ufinal.jar",
+          "size": 383,
+          "sha512": "3b7f1ffd947c7152e38865eb4ed40b10ef3c1cc73b2fc321c3dbe40678287dfd0b100f9c94e4b175e2249110076fd366af7a89e9f182aed0ab0096d4c3f59747",
+          "sha256": "5eba61adeb7f75d3da723665ab63c534d824acd07988999c2465d789cbdbac34",
+          "sha1": "fa9c88c5e65134ca0d688afcdceb26ce6d0c6431",
+          "md5": "87fa6e86dbe2c863d877fc3371d7107a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "aritiality",
+          "version": {
+            "requires": "2.0.0-final"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "callability",
+          "version": {
+            "requires": "2.2.0-final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "functionality-2.2.0-ufinal.jar",
+          "url": "functionality-2.2.0-ufinal.jar",
+          "size": 383,
+          "sha512": "3b7f1ffd947c7152e38865eb4ed40b10ef3c1cc73b2fc321c3dbe40678287dfd0b100f9c94e4b175e2249110076fd366af7a89e9f182aed0ab0096d4c3f59747",
+          "sha256": "5eba61adeb7f75d3da723665ab63c534d824acd07988999c2465d789cbdbac34",
+          "sha1": "fa9c88c5e65134ca0d688afcdceb26ce6d0c6431",
+          "md5": "87fa6e86dbe2c863d877fc3371d7107a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "functionality-2.2.0-ufinal-sources.jar",
+          "url": "functionality-2.2.0-ufinal-sources.jar",
+          "size": 261,
+          "sha512": "f38ddac9385a9e889ac85266913c52f1a94fde27558d2d26fef00d14c0221fc004c3602a828afd618c5620de304c79e04329aedd26628c927c88d8d5528a202b",
+          "sha256": "8e1561ae33760f72df0df0930a0368bef31c56d8e133c28394662b62ee2df557",
+          "sha1": "81d0b3da64acd93a79d7e232e915756afd0b77a9",
+          "md5": "4b9cd0c78eef2b8cb85f7fe90edb2f48"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "functionality-2.2.0-ufinal-javadoc.jar",
+          "url": "functionality-2.2.0-ufinal-javadoc.jar",
+          "size": 261,
+          "sha512": "f38ddac9385a9e889ac85266913c52f1a94fde27558d2d26fef00d14c0221fc004c3602a828afd618c5620de304c79e04329aedd26628c927c88d8d5528a202b",
+          "sha256": "8e1561ae33760f72df0df0930a0368bef31c56d8e133c28394662b62ee2df557",
+          "sha1": "81d0b3da64acd93a79d7e232e915756afd0b77a9",
+          "md5": "4b9cd0c78eef2b8cb85f7fe90edb2f48"
+        }
+      ]
+    }
+  ]
+}

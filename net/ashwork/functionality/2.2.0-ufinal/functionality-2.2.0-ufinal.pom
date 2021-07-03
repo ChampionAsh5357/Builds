@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.ashwork</groupId>
+  <artifactId>functionality</artifactId>
+  <version>2.2.0-ufinal</version>
+  <name>Functionality</name>
+  <description>A collection of additional functional interfaces.</description>
+  <url>https://github.com/ChampionAsh5357/functionality</url>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://opensource.org/licenses/MPL-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>ChampionAsh5357</name>
+      <email>ash@ashwork.net</email>
+      <url>https://ashwork.net/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ChampionAsh5357/functionality.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ChampionAsh5357/functionality.git</developerConnection>
+    <url>https://github.com/ChampionAsh5357/functionality</url>
+  </scm>
+  <issueManagement>
+    <system>Github Issues</system>
+    <url>https://github.com/ChampionAsh5357/functionality/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>net.ashwork</groupId>
+      <artifactId>aritiality</artifactId>
+      <version>2.0.0-final</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.ashwork</groupId>
+      <artifactId>callability</artifactId>
+      <version>2.2.0-final</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
