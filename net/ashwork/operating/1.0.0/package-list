@@ -1,0 +1,9 @@
+net.ashwork.functionality.operator
+net.ashwork.functionality.operator.primitive.booleans
+net.ashwork.functionality.operator.primitive.bytes
+net.ashwork.functionality.operator.primitive.chars
+net.ashwork.functionality.operator.primitive.doubles
+net.ashwork.functionality.operator.primitive.floats
+net.ashwork.functionality.operator.primitive.ints
+net.ashwork.functionality.operator.primitive.longs
+net.ashwork.functionality.operator.primitive.shorts
