@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "predicating",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "functionality",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "operating",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "predicating-1.0.0.jar",
+          "url": "predicating-1.0.0.jar",
+          "size": 67787,
+          "sha512": "bcc0d688ae9ed0b61b2100479b101099b3395c9dd44920cd9e7fe92be4c53995353ba2e88cc8136ced91ed3978d2bec65c1511926a14bdd32da172611a62cbc4",
+          "sha256": "0f5d6c23d599b608225a98e53e3a54198b60b00a28322fc3bda417318630ad39",
+          "sha1": "8a0652c9d150f19b64cf87516131057b2a4a840b",
+          "md5": "278be679d47d15ca7a44b48da26827cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "functionality",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "operating",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "predicating-1.0.0.jar",
+          "url": "predicating-1.0.0.jar",
+          "size": 67787,
+          "sha512": "bcc0d688ae9ed0b61b2100479b101099b3395c9dd44920cd9e7fe92be4c53995353ba2e88cc8136ced91ed3978d2bec65c1511926a14bdd32da172611a62cbc4",
+          "sha256": "0f5d6c23d599b608225a98e53e3a54198b60b00a28322fc3bda417318630ad39",
+          "sha1": "8a0652c9d150f19b64cf87516131057b2a4a840b",
+          "md5": "278be679d47d15ca7a44b48da26827cf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "predicating-1.0.0-sources.jar",
+          "url": "predicating-1.0.0-sources.jar",
+          "size": 53255,
+          "sha512": "ec1e756817627566c012e32b8179cf3c85f70e0b931dc4391c507b602ddc53b102c82af5bb408a9f97d370335a6c28b87bf4db94e4f690a1aead5eddebaed50a",
+          "sha256": "96b35578ed3116d9cf9531632dd21162b6636d15402b2b25e95237683459ccc0",
+          "sha1": "08dc6a0fa56480b8d9cb941ff7db54d9033ae1dd",
+          "md5": "a9f4240bd67aa0f78a9a967c0dc1198d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "predicating-1.0.0-javadoc.jar",
+          "url": "predicating-1.0.0-javadoc.jar",
+          "size": 321741,
+          "sha512": "83bafd9aed358c49d21b31ecffd5a66614b329b6377e90145cb16c2ad0a9a879855e96aec59b1be3f6dbd8653a122c40a708dda8a4427dec17a0f03471d80b41",
+          "sha256": "e9958f78556c6a75c5979920eeb0aca9616146ad4e8c04fbecd5ec526185bbfc",
+          "sha1": "897f94834d6178a6f104eda4fa02a6124fd68de3",
+          "md5": "45104ea183491ea994a957a3e9fca9f2"
+        }
+      ]
+    }
+  ]
+}

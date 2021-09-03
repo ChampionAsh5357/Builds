@@ -17,20 +17,29 @@ These projects use [Semantic Versioning][semver] as their version number. The fo
 
 | Name | Artifact Id | Version | Maven Central |
 | :--- | :---: | :---: | :---: |
-| [Aritiality][functionality]* | aritiality | 2.0.0-final | ✔️ |
-| [Callability][functionality]** | callability | 2.2.0-final | ✔️ |
 | [Codecable][codecable] | codecable | 1.1.0 | ✔️ |
 | [Codecable - Minecraft][codecable] | codecable-minecraft | 1.1.0 | ✔️ |
-| [Consumability][functionality] | consumability | N/A | ❌ |
-| [Functionality][functionality]*** | functionality | 2.2.0-ufinal | ✔️ |
-| [Functionality - Core][functionality]* | functionality-core | 1.0.0 | ❌ |
-| [Operating][functionality] | operating | N/A | ❌ |
-| [Throwability][functionality] | throwability | N/A | ❌ |
+| [Consumability][functionality] | consumability | 1.0.0 | ❌ |
+| [Functionality][functionality] | functionality | 3.0.0 | ❌ |
+| [Functionality - All][functionality] | functionality-all | 1.0.0 | ❌ |❌ |
+| [Operating][functionality] | operating | 1.0.0 | ❌ |
+| [Predicating][functionality] | predicating | 1.0.0 | ❌ |
+| [Throwability][functionality] | throwability | 1.0.0 | ❌ |
 
-\* [Aritiality][functionality] and [Functionality - Core][functionality] are deprecated and final. Project is separated into [Functionality][functionality], [Consumability][functionality], and [Operating][functionality].  
-\*\* [Callability][functionality] is deprecated and final. Project has been moved to [Throwability][functionality].  
-\*\*\* The original [Functionality][functionality] project is deprecated and final. From version 3.0.0 onwards, the artifact id will be repurposed.
+# End of Life Projects
+
+| Name | Artifact Id | Version | Maven Central |
+| :--- | :---: | :---: | :---: |
+| [Aritiality][functionality-old]* | aritiality | 2.0.0-final | ✔️ |
+| [Callability][functionality-old]** | callability | 2.2.0-final | ✔️ |
+| [Functionality][functionality-old]*** | functionality | 2.2.0-ufinal | ✔️ |
+| [Functionality - Core][functionality-old]* | functionality-core | 1.0.0 | ❌ |
+
+\* [Aritiality][functionality-old] and [Functionality - Core][functionality-old] are deprecated and final. Project is separated into [Functionality][functionality], [Consumability][functionality], and [Operating][functionality].  
+\*\* [Callability][functionality-old] is deprecated and final. Project has been moved to [Throwability][functionality].  
+\*\*\* The original [Functionality][functionality-old] project is deprecated and final. From version 3.0.0 onwards, the artifact id will be repurposed.
 
 [semver]: https://semver.org/
+[functionality-old]: https://github.com/ChampionAsh5357/Functionality/tree/1/2.x
 [functionality]: https://github.com/ChampionAsh5357/Functionality
 [codecable]: https://github.com/ChampionAsh5357/Codecable

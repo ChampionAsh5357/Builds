@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "throwability",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "functionality",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "consumability",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "operating",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "predicating",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "throwability-1.0.0.jar",
+          "url": "throwability-1.0.0.jar",
+          "size": 723318,
+          "sha512": "b1bde8b379c4a42bfbf38dbc00389fe069c48ac75a04885566e736cd0a449f970569623d78ea3b583d2e1d86435d81e3335527da2e991be62cb59fbf9b2e3d73",
+          "sha256": "ab4002bc6713c6631cdc2300d94fa3a408220309d31f2a7944ec83c88c3c6c7b",
+          "sha1": "3815c1dfab5242993bfd5717b78799a0bc05e88e",
+          "md5": "5e54cdc8ef44c9fbaa3b967b1282a441"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "functionality",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "consumability",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "operating",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.ashwork",
+          "module": "predicating",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "throwability-1.0.0.jar",
+          "url": "throwability-1.0.0.jar",
+          "size": 723318,
+          "sha512": "b1bde8b379c4a42bfbf38dbc00389fe069c48ac75a04885566e736cd0a449f970569623d78ea3b583d2e1d86435d81e3335527da2e991be62cb59fbf9b2e3d73",
+          "sha256": "ab4002bc6713c6631cdc2300d94fa3a408220309d31f2a7944ec83c88c3c6c7b",
+          "sha1": "3815c1dfab5242993bfd5717b78799a0bc05e88e",
+          "md5": "5e54cdc8ef44c9fbaa3b967b1282a441"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "throwability-1.0.0-sources.jar",
+          "url": "throwability-1.0.0-sources.jar",
+          "size": 472184,
+          "sha512": "80d986faeb6ca89f191e1202d02dd1d588ae8cf954ab541fa53e5dfcfea82a00a6aaa32665a7ad0a77d0a00a0513e5ef65ecad62f492d3ea49d2d01ed3153b39",
+          "sha256": "d22216627b1684003d1042ab2ca7948d448772b791c4fdd11c0575863c060490",
+          "sha1": "b2ffb89118f18d675b22eaa3bd2afb3ce0a45fc3",
+          "md5": "96496db0e0e8b9edd294fe168c14a9b9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "throwability-1.0.0-javadoc.jar",
+          "url": "throwability-1.0.0-javadoc.jar",
+          "size": 2416054,
+          "sha512": "f88507a6e225fdc10cd1289b79cb2825b9c092f67044e35e1737d569aa8a591a351dfe6d997df9a740d0dd43243faffad0b09b1ae2512aca5ba2ba3832b036f1",
+          "sha256": "22615d6cf686b188754c5297a34f9515f87b162bd966ff5fd8b6cc0991272fa7",
+          "sha1": "b64df3691081d6d71a4c83e8e599f114d875e741",
+          "md5": "4191edce95b148ba99be0bc2bdaccf00"
+        }
+      ]
+    }
+  ]
+}
