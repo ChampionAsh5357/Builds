@@ -1,4 +1,5 @@
 # Builds
+
 This repository holds a list of builds between all repository projects as of January 1st, 2021. Licensing for each build stored here adheres to the specific license put on the associated source. There is no warranty or liability for anything that occurs within the distributions on this site. Please see the wiki for accessing the repository.
 
 # Versioning Schema
@@ -19,12 +20,12 @@ These projects use [Semantic Versioning][semver] as their version number. The fo
 | :--- | :---: | :---: | :---: |
 | [Codecable][codecable] | codecable | 1.1.0 | ✔️ |
 | [Codecable - Minecraft][codecable] | codecable-minecraft | 1.1.0 | ✔️ |
-| [Consumability][functionality] | consumability | 1.0.0 | ❌ |
-| [Functionality][functionality] | functionality | 3.0.0 | ❌ |
-| [Functionality - All][functionality] | functionality-all | 1.0.0 | ❌ |❌ |
-| [Operating][functionality] | operating | 1.0.0 | ❌ |
-| [Predicating][functionality] | predicating | 1.0.0 | ❌ |
-| [Throwability][functionality] | throwability | 1.0.0 | ❌ |
+| [Consumability][functionality] | consumability | 1.0.0 | ✔️ |
+| [Functionality][functionality] | functionality | 3.0.0 | ✔️ |
+| [Functionality - All][functionality] | functionality-all | 1.0.0 | ✔️ |
+| [Operating][functionality] | operating | 1.0.0 | ✔️ |
+| [Predicating][functionality] | predicating | 1.0.0 | ✔️ |
+| [Throwability][functionality] | throwability | 1.0.0 | ✔️ |
 
 # End of Life Projects
 
