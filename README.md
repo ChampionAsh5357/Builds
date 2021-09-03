@@ -17,8 +17,8 @@ https://docs.ashwork.net/<group>/<artifact_id>/<version>
 | [Predicating][predicating-1.0.0] | 1.0.0 |
 | [Throwability][throwability-1.0.0] | 1.0.0 |
 
-[consumability-1.0.0]: null
-[functionality-3.0.0]: null
-[operating-1.0.0]: null
-[predicating-1.0.0]: null
-[throwability-1.0.0]: null
+[consumability-1.0.0]: https://docs.ashwork.net/net/ashwork/consumability/1.0.0/
+[functionality-3.0.0]: https://docs.ashwork.net/net/ashwork/functionality/3.0.0/
+[operating-1.0.0]: https://docs.ashwork.net/net/ashwork/operating/1.0.0/
+[predicating-1.0.0]: https://docs.ashwork.net/net/ashwork/predicating/1.0.0/
+[throwability-1.0.0]: https://docs.ashwork.net/net/ashwork/throwability/1.0.0/
